@@ -1,0 +1,48 @@
+body{
+font-family: 'Oswald', sans-serif;
+ margin: 0;
+}
+#hand-out{
+    width:1000 px;  
+}
+#help-man{
+   width: 500px;
+   height: 300px;
+    text-align: center;
+    display: inline;
+    color: white;
+
+}
+.image{
+  height: 300px;
+}
+img{
+   width: 100%;
+   
+}
+h1{
+    font-size: 40px;
+
+}
+p{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+.link-btn{
+    text-decoration: none;
+    background:linear-gradient(rgb(255, 114, 71),rgb(164, 66, 66));
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  
+}
+.link-btn:hover{
+    background:linear-gradient(rgb(23, 128, 0),rgb(128, 128, 0));
+}
