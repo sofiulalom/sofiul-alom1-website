@@ -3,7 +3,9 @@ font-family: 'Oswald', sans-serif;
  margin: 0;
 }
 #hand-out{
-    width:1000 px;  
+    width:1000px;
+    margin-bottom: 100px;
+    
 }
 #help-man{
    width: 500px;
@@ -11,17 +13,20 @@ font-family: 'Oswald', sans-serif;
     text-align: center;
     display: inline;
     color: white;
-
+  
 }
 .image{
-  height: 300px;
+ height: 300px;
 }
 img{
-   width: 100%;
    
+   width: 100%;
+   overflow: hidden;
 }
 h1{
     font-size: 40px;
+    margin: auto;
+    text-align: center;
 
 }
 p{
@@ -45,4 +50,38 @@ p{
 }
 .link-btn:hover{
     background:linear-gradient(rgb(23, 128, 0),rgb(128, 128, 0));
+}
+.helpless{
+   margin-top: 200px;
+   text-align: center;
+   width:100%;
+
+   
+  
+}
+.grid-contanier{
+    display: grid;
+    height: 100px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: beige;
+    padding: 10px 0;
+    margin-bottom: 100px;
+
+}
+.doler-2{
+    border: 2px solid red;
+}
+.doler-2:hover{
+    border:2px solid blue;
+}
+.doler-1{
+    border: none;
+}
+.doler-1:hover{
+  border: 2px solid green;
+}
+.amount{
+    color: grey;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
 }
