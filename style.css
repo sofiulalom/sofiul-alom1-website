@@ -7,7 +7,7 @@ font-family: 'Oswald', sans-serif;
     margin-bottom: 100px;
     
 }
-#help-man{
+.container{
    width: 500px;
    height: 300px;
     text-align: center;
@@ -30,10 +30,12 @@ h1{
 
 }
 p{
-    width: 400px;
+    width: 276px;
+    text-align: center;
+    display:flex;
     margin: auto;
-    margin-bottom: 40px;
-    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .link-btn{
@@ -54,28 +56,33 @@ p{
 .helpless{
    margin-top: 200px;
    text-align: center;
-   width:100%;
-
    
+  
   
 }
 .grid-contanier{
-    display: grid;
+    display: flex;
     height: 100px;
-    grid-template-columns: auto auto auto auto auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    columns: auto auto auto auto auto;
     background-color: beige;
     padding: 10px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 .doler-2{
     border: 2px solid red;
+    padding: 40px;
+    font-size: 18px;
 }
 .doler-2:hover{
     border:2px solid blue;
 }
 .doler-1{
     border: none;
+    padding: 40px;
+   font-size: 18px;
 }
 .doler-1:hover{
   border: 2px solid green;
@@ -83,5 +90,67 @@ p{
 .amount{
     color: grey;
     border-bottom: 1px solid gray;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+  
 }
+#help-susity{
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.templet{
+    
+    height: 20%;
+    background: black;
+    width: 250px;
+    float: left;
+    
+  
+    
+      
+}
+.icon{
+    width: 50px;
+}
+.temp1{
+    float: left;
+    background-color: beige;
+    padding:20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 10px;
+   
+}
+.temp2{
+    float: left;
+    background-color: gray;
+    padding:20px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.temp3{
+    float: left;
+    background-color:green;
+    padding:20px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+
+    
+}
+
+
+#sofiul{
+   height: 200px;
+   background-color: rgb(201, 45, 228);
+ 
+
+}
+.the-end{
+    color: brown;
+    border-bottom: 2px solid blue;
+}
+small{
+    color: green;
+}
+
